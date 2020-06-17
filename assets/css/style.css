@@ -1,0 +1,65 @@
+
+html, body {
+	background-color: #63738A;
+	height:100%;
+	width:100%;
+	margin:0;
+}
+
+body{
+	display:flex;
+}
+
+.form-container{
+	margin: auto;
+    background-color: #F2F3F7;
+    border-radius: 25px;
+    padding: 30px;
+    width: 40%;
+}
+
+form h1{
+	color: #636363;
+	text-align: center;
+}
+
+.form-group{
+	width: 86%;
+	margin: auto;
+	margin-top: 3%;
+}
+
+.form-check{
+	width: 86%;
+	margin: auto;
+	margin-top: 3%;
+}
+
+button{
+	width: 100%;
+}
+
+.btn-primary{
+	background-color: #758698;
+}
+
+.form-group p{
+	font-style: sans-serif;
+	font-size: 16px;
+    font-family: inherit;
+}
+
+.form-group h1{
+text-align: center;
+
+}
+
+
+
+
+
+/*form #F2F3F7*/
+/*button #F2F3F7*/
+
+/*h1 #636363
+p #A599A5*/
