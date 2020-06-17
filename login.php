@@ -14,17 +14,17 @@
 	<meta name="description" content="This is a login system and this is the sign up page for it">
 	<meta name=viewport content="width=device-width, initial-scale=1">
 
-	<title>Register</title>
+	<title>Login</title>
 </head>
 <body>
 	<div class="form-container">
 		<form action="login_action.php" method="POST">
 			<h1>Login</h1>
 			<div class="form-group">
-				<input type="text" class="form-control" id="username" placeholder="Enter Username">
+				<input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
 			</div>
 			<div class="form-group">
-				<input type="password" class="form-control" id="Password1" placeholder="Enter Password">
+				<input type="password" class="form-control" name="password" placeholder="Enter Password">
 			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-primary">Login</button>
